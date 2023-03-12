@@ -1,0 +1,35 @@
+<mat-card class="example-card">
+    <mat-card-content class="heading">Apply leave</mat-card-content>
+
+  
+  <form class="example-form">
+    <mat-form-field class="example-full-width"appearance="outline">
+      <mat-label>Employee id</mat-label>
+      <input matInput name="eid" [(ngModel)]="leave.eid" placeholder="Enter employee id" >
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>From date</mat-label>
+        <input matInput name="fromdate"[(ngModel)]="leave.fromdate"[matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+      <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>To date</mat-label>
+        <input matInput name="todate" [(ngModel)]="leave.todate" [matDatepicker]="picker1">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      
+      <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Reason for leave</mat-label>
+        <textarea name="reason"[(ngModel)]="leave.reason" matInput placeholder="Reason for leave"></textarea>
+      </mat-form-field>
+  </form>
+
+  <div class="buttons">
+    <button (click)="apply()" mat-raised-button color="primary">Apply</button>&nbsp;
+    <button routerLink="/viewleave" mat-raised-button color="accent">view</button>
+  </div>
+</mat-card>

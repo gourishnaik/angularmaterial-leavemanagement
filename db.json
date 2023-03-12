@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "eid": "AFKELLE",
+      "fromdate": "2023-03-13T18:30:00.000Z",
+      "todate": "2023-03-15T18:30:00.000Z",
+      "reason": "not feeling good\n\n",
+      "id": 1
+    },
+    {
+      "eid": "AHFJNME",
+      "fromdate": "2023-03-21T18:30:00.000Z",
+      "todate": "2023-03-22T18:30:00.000Z",
+      "reason": "will be attending sister marriage",
+      "id": 2
+    },
+    {
+      "eid": "EJFMFRE",
+      "fromdate": "2023-03-21T18:30:00.000Z",
+      "todate": "2023-03-30T18:30:00.000Z",
+      "reason": "casual sick leave",
+      "id": 3
+    },
+    {
+      "eid": "THNNMDQ12",
+      "fromdate": "2023-03-21T18:30:00.000Z",
+      "todate": "2023-04-24T18:30:00.000Z",
+      "reason": "will be traveling to europe",
+      "id": 4
+    },
+    {
+      "eid": "WEERER",
+      "fromdate": "2023-03-13T18:30:00.000Z",
+      "todate": "2023-03-23T18:30:00.000Z",
+      "reason": "going to australia",
+      "id": 5
+    },
+    {
+      "eid": "SDSDS1213",
+      "fromdate": "2023-03-21T18:30:00.000Z",
+      "todate": "2023-03-22T18:30:00.000Z",
+      "reason": "attending cousin's marriage",
+      "id": 6
+    },
+    {
+      "eid": "ENENE1212",
+      "fromdate": "2023-03-11T18:30:00.000Z",
+      "todate": "2023-03-11T18:30:00.000Z",
+      "reason": "have god puja in home",
+      "id": 7
+    },
+    {
+      "eid": "QEQE131",
+      "fromdate": "2023-03-12T18:30:00.000Z",
+      "todate": "2023-03-28T18:30:00.000Z",
+      "reason": "grandmother is not well she is in serious condition",
+      "id": 8
+    }
+  ]
+}
